@@ -1,0 +1,24 @@
+﻿<HeadContent>
+    <style>
+        :root {
+            --board-bg: yellow;  /** the colour of the board **/
+            --player1: red;      /** Player 1's piece colour **/
+            --player2: blue;     /** Player 2's piece colour **/
+        }
+    </style>
+</HeadContent>
+
+<div>
+    <div class="board">
+        @for (var i = 0; i < 42; i++)
+        {
+            <span class="container">
+                <span></span>
+            </span>
+        }
+    </div>
+</div>
+
+@code {
+
+}
